@@ -1,4 +1,3 @@
-Freifach TouchDesigner
+TouchDesigner Course
 =====================
-
-Hier entsteht hoffentlich ein schönes scriptum/mitschrift sammlung des Freifachs TouchDesigner.
+more coming soon..
