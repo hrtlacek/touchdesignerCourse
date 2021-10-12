@@ -1,0 +1,17 @@
+*.out
+*.aux
+dummy.py
+*.gz
+*.toc
+*.log
+*.fdb_latexmk
+*.mindnode
+*.fls
+*.sublime-workspace
+*.sublime-project
+*.idx
+*.ind
+*.ilg
+*.tif
+EXAMPLES_nonpub/*
+EXAMPLES

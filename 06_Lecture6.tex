@@ -1,0 +1,55 @@
+%=================TD functions==================
+\def\boldcommandlist{\@elt OP,\@elt OPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textbf{#1}\xspace}
+}
+\boldcommandlist
+
+\def\topColorList{\@elt TOP,\@elt TOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{TOP}{\textbf{#1}}\xspace}
+}
+\topColorList
+
+\def\chopColorList{\@elt CHOP,\@elt CHOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{CHOP}{\textbf{#1}}\xspace}
+}
+\chopColorList
+
+\def\sopColorList{\@elt SOP,\@elt SOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{SOP}{\textbf{#1}}\xspace}
+}
+\sopColorList
+
+\def\datColorList{\@elt DAT,\@elt DATs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{DAT}{\textbf{#1}}\xspace}
+}
+\datColorList
+
+\def\matColorList{\@elt MAT,\@elt MATs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{MAT}{\textbf{#1}}\xspace}
+}
+\matColorList
+
+
+\def\compColorList{\@elt COMP,\@elt COMPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{COMP}{\textbf{#1}}\xspace}
+}
+\compColorList
+
+\def\redcommandlist{\@elt missingImage,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{red}{\textbf{#1}}\xspace}
+}
+\redcommandlist
+
+%===============================================
+
+\chapter{Lecture 6}
+
+\section{Notes}

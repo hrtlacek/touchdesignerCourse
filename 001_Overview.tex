@@ -1,0 +1,176 @@
+%!TEX root = main.tex
+%=================TD functions==================
+
+\def\boldcommandlist{\@elt OP,\@elt OPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textbf{#1}\xspace}
+}
+\boldcommandlist
+
+\def\topColorList{\@elt TOP,\@elt TOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{TOP}{\textbf{#1}}\xspace}
+}
+\topColorList
+
+\def\chopColorList{\@elt CHOP,\@elt CHOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{CHOP}{\textbf{#1}}\xspace}
+}
+\chopColorList
+
+\def\sopColorList{\@elt SOP,\@elt SOPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{SOP}{\textbf{#1}}\xspace}
+}
+\sopColorList
+
+\def\datColorList{\@elt DAT,\@elt DATs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{DAT}{\textbf{#1}}\xspace}
+}
+\datColorList
+
+\def\matColorList{\@elt MAT,\@elt MATs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{MAT}{\textbf{#1}}\xspace}
+}
+\matColorList
+
+
+\def\compColorList{\@elt COMP,\@elt COMPs,}
+\def\@elt#1,{%
+ \expandafter\def\csname#1\endcsname{\textcolor{COMP}{\textbf{#1}}\xspace}
+}
+\compColorList
+
+
+%===============================================
+
+
+% \def\boldcommandlist{\@elt FS,\@elt OFS,\@elt RS,\@elt ORS,\@elt NR,\@elt NF,\@elt FNR,}
+% \def\@elt#1,{%
+%  \expandafter\def\csname#1\endcsname{\textbf{#1}\xspace}
+% }
+% \boldcommandlist
+\color{textStd}
+
+\addsec{Introduction/Notes}
+\label{Notes}
+
+
+\section{Notes} % (fold)
+\label{notes}
+
+Video playback
+
+\subsection{Project Ideas}
+\label{sub:ideen}
+\subsubsection{Simple}
+\begin{itemize}
+	\item Hipster filter
+	\item Audio Reactive Noise Ball
+	\item Toon Shader
+	\item Replicator Experiments
+	\item Oscilloscope/Spectroscope
+	\item leap motion
+\end{itemize}
+
+\subsubsection{Intermediate}
+\begin{itemize}
+	\item \glqq{}Auto-Cutter\grqq{}
+	\item Particle stuff
+	\item DMX
+	\item big-data viz
+\end{itemize}
+
+\subsubsection{Long Term}
+\begin{itemize}
+	\item Mapping
+	\item Music Video
+	\item Aiko Aiko
+	\item Procedural Modelling (Bicycle, House, ...)
+	\item (3d) Multi-Touch Interface
+	\item vj-app
+	\item (Light) Show Simulation
+	\item Color Grading Software
+	\item video Analysis
+
+
+\end{itemize}
+
+\section{Course Structure} % (fold)
+
+% \def\boldcommandlist{\@elt OP,\@elt OFS,\@elt RS,\@elt ORS,\@elt NR,\@elt NF,\@elt FNR,}
+% \def\@elt#1,{%
+%  \expandafter\def\csname#1\endcsname{\textbf{#1}\xspace}
+% }
+% \boldcommandlist
+
+
+\subsection{Lecture 1 introduction and 2D-processing} % (fold)
+\label{sub:lecture_1}
+\begin{itemize}
+	\item students show what they want to do in form of images in a toe file.
+	\item showing off what TD can do, what I did so far.
+	% \item history of TD (Houdini) and comparison to other similar software
+	% \item possibly quick intro to latex/github for collaborative work on this
+	\item Intro to TD
+		\begin{itemize}
+		\item getting help
+		\item the GUI (quick overview)
+		\item the \OPs
+		\item in Depth: \TOPs and \CHOPs
+		\item first guided projects
+		% \item overview over useful \DATs
+		% \item GUI more in depth (or rather do this along the way?)
+		\item first python expressions (just something like \verb|absTime.frame/100|)
+		\item a very quick look at GUIs
+		\item output window handling and MovieFileOut \TOP. Possibly but rather not: off-line rendering.
+		\end{itemize}
+	% \item semester project groups and topics choice
+\end{itemize}
+
+\subsection{Lecture 2, Rendering Setup and Procedural Modeling}
+\label{sub:lecture_2}
+\begin{itemize}
+	\item encapsulating Work, \COMPs
+	\item converting between OP families, and why
+	\item GUIs again
+	\item Select \OPs
+	% \item audio: filter \CHOPs, spectrum \CHOP, analysis \CHOP
+	\item Render Setup
+	\item some fun SOPs: copy, group, noise, facet, particle, magnet, force, twist, lattice
+	\item feedback \TOP
+	\item lights, light projection, shadows
+	\item off-line rendering
+\end{itemize}
+
+\subsection{Lecture 3, Replication and Instancing, compositing and more project structure}
+\label{sub:lecture_3}
+\begin{itemize}
+	\item instancing
+	\item particle rendering
+	\item replicator \COMP
+	\item Clones
+	\item render pass \TOP
+\end{itemize}
+
+\subsection{Lecture 4}
+\label{sub:lecture_4}
+\begin{itemize}
+	\item Scripting
+	\item Projection Mapping
+	\item DATA/API visualization
+\end{itemize}
+
+
+\subsection{Lecture 5}
+\label{sub:lecture_5}
+% \itemize
+Working on the final Project
+
+\subsection{Lecture 6, project presentation}
+\label{sub:lecture_6}
+
+
